@@ -1,0 +1,8 @@
+通常のコンパイル
+csc *.cs
+
+GUIアプリケーション（コンソール出力なし）
+csc /target:winexe *.cs
+
+GUIアプリケーション（コンソール出力なし、アイコン指定）
+csc /target:winexe *.cs /win32icon:*.ico
